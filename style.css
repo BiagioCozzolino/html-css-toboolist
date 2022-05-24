@@ -22,6 +22,17 @@ h1{
 p{
     padding: 10px;
 }
+.badge {
+    border-radius: 30%;
+    color: white;
+    padding: 3px;
+    display: inline-block;
+    text-align: center;
+    font-size: 11px;
+    margin: 0px;
+
+}
+
 /* Components */
 .btn {
     text-decoration: none;
@@ -90,4 +101,29 @@ color: #dcf2fd;
     text-align: center;
     font-size: 13px;
     font-weight: bolder;
+}
+
+.bluebadge{
+    border: 2px solid #14aaf5;
+    background-color:#14aaf5 ;
+}
+.purplebadge{
+    border: 2px solid #ab5de6;
+    background-color:#ab5de6 ;
+}
+.greenbadge{
+    border: 2px solid #2cc6ab;
+    background-color:#2cc6ab ;
+}
+.orangebadge{
+    border: 2px solid #ff9b00;
+    background-color:#ff9b00 ;
+}
+.pinkbadge{
+    border: 2px solid #ec4a9d;
+    background-color:#ec4a9d ;
+}
+.lihtgreenbadge{
+    border: 2px solid #a3d117;
+    background-color:#a3d117 ;
 }
