@@ -7,7 +7,7 @@
 /* Commons */
 body{
     background-color: #f6f8f9;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif
 }
 header{
     background-color:#ffffff ;
@@ -23,13 +23,13 @@ p{
     padding: 10px;
 }
 .badge {
-    border-radius: 30%;
+    border-radius: 20%;
     color: white;
-    padding: 3px;
-    display: inline-block;
-    text-align: center;
-    font-size: 11px;
-    margin: 0px;
+    padding: 5px;
+    font-size: x-small;
+    margin: 4px;
+
+    
 
 }
 
@@ -41,9 +41,8 @@ p{
     border-radius: 5px;
     font-size: 20px;
     color: #c5ccd1;
-    
-    
-    
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .btn-blue {
 background-color: #14aaf5;
@@ -68,15 +67,16 @@ color: #dcf2fd;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5px;
-    background-color: #ffffff;  
-    
+    background-color: #ffffff; 
+    padding-left: 60px; 
      
 }
+
 .listitem{
-    width: 70%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
+    font-weight: bold;
     
     
 }
@@ -90,6 +90,7 @@ color: #dcf2fd;
     text-align: center;
     font-size: 13px;
     font-weight: bolder;
+    margin-right: 10px;
 }
 .cross {
     border: 1px solid red;
@@ -101,10 +102,11 @@ color: #dcf2fd;
     text-align: center;
     font-size: 13px;
     font-weight: bolder;
+    margin-right: 10px;
 }
 
 .bluebadge{
-    border: 2px solid #14aaf5;
+    border: 1px solid #14aaf5;
     background-color:#14aaf5 ;
 }
 .purplebadge{
